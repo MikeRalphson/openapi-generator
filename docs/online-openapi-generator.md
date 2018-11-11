@@ -62,7 +62,7 @@ curl -H "Content-type: application/json" -X POST -d '{"options": {"packageName":
 ```
 
 Instead of using `openAPIUrl` with an URL to the OpenAPI spec, one can include the spec in the JSON payload with `spec`, e.g.
-```json
+```yaml
 {
   "options": {},
   "spec": {
